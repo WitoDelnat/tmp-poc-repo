@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blue-cms
+  labels:
+    monokle.io/demo: vanilla-blue-cms
+spec:
+  replicas: "this-should-be-a-number"
+  selector:
+    matchLabels:
+      app: blue-cms
+  template:
+    metadata:
+      labels:
+        app: blue-cms
+    spec:
+      containers:
+        - name: blue-cms
+          image: blue-cms:latest
+          ports:
+            - name: http-web
+              containerPort: 8080
