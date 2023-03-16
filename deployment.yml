@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: blue-ffd
+        app: blue-ffe
     spec:
       containers:
         - name: blue-cms
