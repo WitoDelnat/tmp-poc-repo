@@ -5,7 +5,7 @@ metadata:
   labels:
     monokle.io/demo: vanilla-blue-cms
 spec:
-  replicas: 6
+  replicas: 2
   selector:
     matchLabels:
       app: blue-cms
