@@ -7,4 +7,4 @@ spec:
     app: demo-app
   ports:
     - port: 85
-      targetPort: 8082
+      targetPort: 7082
