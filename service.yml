@@ -4,7 +4,7 @@ metadata:
   name: demo
 spec:
   selector:
-    app: demo-app
+    app: demo-appp
   ports:
     - port: 86
       targetPort: 7083
