@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: blue-cms
+  name: blue-cmss
   labels:
     monokle.io/demo: vanilla-blue-cms
 spec:
