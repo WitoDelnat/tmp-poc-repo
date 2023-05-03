@@ -1,3 +1,0 @@
-helloworld x
-x
-y
