@@ -4,7 +4,7 @@ const { useKeat, FeatureBoundary } = keatReact({
   features: {
     search: false,
     redesign: false,
-    foo: true,
+    bar: true,
     sortAlgorithm: {
       variates: ["quicksort", "insertionSort", "heapsort"],
     },
