@@ -5,10 +5,8 @@ const { useKeat, FeatureBoundary } = keatReact({
     search: false,
     redesign: false,
     bar: true,
-    sortAlgorithm: {
-      variates: ["quicksort", "insertionSort", "heapsort"],
-    },
-  } as const,
+    sortAlgorithm: true,
+  },
   plugins: [
     remoteConfig("https://example.io/slowConfig", { interval: 300 }),
     audience("staff", (user) => user.email?.endsWith("example.io")),
