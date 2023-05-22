@@ -2,7 +2,6 @@ import { keatReact, audience, remoteConfig, rollouts } from "keat";
 
 const { useKeat, FeatureBoundary } = keatReact({
   features: {
-    search: false,
     redesign: false,
     hello: true,
     sortAlgorithm: true,
