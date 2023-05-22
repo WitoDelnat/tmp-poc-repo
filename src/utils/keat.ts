@@ -4,7 +4,7 @@ const { useKeat, FeatureBoundary } = keatReact({
   features: {
     search: false,
     redesign: false,
-    bar: true,
+    hello: true,
     sortAlgorithm: true,
   },
   plugins: [
