@@ -5,6 +5,7 @@ const { useKeat, FeatureBoundary } = keatReact({
     redesign: false,
     sortAlgorithm: true,
     demo: false,
+    foo: false,
   },
   plugins: [
     remoteConfig("https://example.io/slowConfig", { interval: 300 }),
