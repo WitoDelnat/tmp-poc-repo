@@ -1,6 +1,6 @@
-import { keatReact, audience, remoteConfig, rollouts } from "keat";
+import { keatReact, audience, remoteConfig, rollouts } from "keat-react";
 
-const { useKeat, FeatureBoundary } = keatReact({
+const { useKeat, FeatureBoundary } = keat({
   features: {
     redesign: false,
     sortAlgorithm: true,
