@@ -6,8 +6,7 @@ const { useKeat, FeatureBoundary } = keat({
     sortAlgorithm: true,
     demo: false,
     foo: false,
-    bar: true,
-    kloshHarah: false
+    bar: true
   },
   plugins: [
     remoteConfig("https://example.io/slowConfig", { interval: 300 }),
