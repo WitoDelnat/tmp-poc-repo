@@ -6,7 +6,7 @@ const { useKeat, FeatureBoundary } = keat({
     sortAlgorithm: true,
     demo: false,
     foo: false,
-    baz: true,
+    bak: true,
     kloshHarah: false
   },
   plugins: [
