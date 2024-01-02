@@ -4,7 +4,6 @@ const { useKeat, FeatureBoundary } = keat({
   features: {
     redesign: false,
     sortAlgorithm: true,
-    demo: false,
     foo: false,
     bak: true,
     kloshHarah: false
